@@ -1,0 +1,106 @@
+/* .aboutheading{
+  color: #533E85;
+  font-size: 36px;
+  
+} */
+.aboutus-des h1{
+  color: #533E85;
+  font-size: 36px;
+
+}
+.aboutus {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 800px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+}
+
+.aboutus-des{
+  color: #533E85;
+  font-size: 21px;
+  text-align: justify;
+}
+.aboutus-img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 650px) {
+  .aboutus {
+      display: block;
+      font-size: 80%;
+  }
+  .aboutus-des {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background: rgba(white, 0.8);
+  }
+}
+
+.aboutus-card {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  text-align: center;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  padding-bottom: 50px;
+  
+}
+
+.about-card-img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-image: url(https://www.projectmanager.com/wp-content/uploads/2018/11/181112_Blog_Feature_Mission.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: .3em;;
+}
+
+.aboutcard-desc{
+  color: #533E85;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.aboutcard-heading{
+  color: #533E85;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+
+@media(max-width:840px) {
+  .aboutus-card {
+    flex-direction: column;
+    max-width: 460px;
+  }
+  
+  .about-card {
+    flex-direction: row;
+    width: 100%;
+  }
+ 
+}
