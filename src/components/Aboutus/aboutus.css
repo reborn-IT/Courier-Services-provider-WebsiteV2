@@ -9,6 +9,8 @@
 
 }
 .aboutus {
+    margin-top: 10% !important;
+    margin-bottom: 5%;
     display: grid;
     padding: 2rem;
     grid-template-columns: 800px 1fr;
@@ -42,7 +44,10 @@
 }
 
 .aboutus-card {
-  margin: 0 auto;
+ margin-top:5%;
+ margin-top: 0 auto;
+ margin-left: 0 auto;
+ margin-right: 0 auto;
   width: 90%;
   max-width: 800px;
   display: flex;
@@ -90,6 +95,7 @@
   font-size: 36px;
   font-weight: 700;
 }
+
 
 
 @media(max-width:840px) {

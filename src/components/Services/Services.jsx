@@ -7,7 +7,7 @@ import image4 from "../images/smd.jpg";
 import image5 from "../images/tdd.png";
 import image6 from "../images/coc.png";
 
-function Services() {
+export const Services= () => {
     return(
         <div>
 			<div className="services-image">
@@ -19,7 +19,7 @@ function Services() {
 				convenient for you instead that suites best for you.
 			</div>
 
-			<div className="services">
+			<div id="services">
 				<div class="album">
 					<img class="service-desc-image" src={image1} />
 					<div class="services-title">
@@ -99,4 +99,3 @@ function Services() {
         </div>
     )
 }
-export default Services;
