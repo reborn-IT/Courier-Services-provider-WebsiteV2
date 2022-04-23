@@ -72,6 +72,14 @@
     font-weight: 450;
 }
 
+/* #home .services .col-sm-3{
+    transition: 1s;
+}
+
+#home .services .col-sm-3:hover{
+    transform: scale(1.2);
+} */
+
 #home .aside{
     width: 25%;
     float: left;

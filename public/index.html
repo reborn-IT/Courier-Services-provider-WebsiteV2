@@ -113,11 +113,28 @@ function scrollFunction() {
     document.getElementById("scroll_Txt2").innerHTML="";
     document.getElementById("scroll_btn1").style.paddingLeft = "10px !important";
     document.getElementById("scroll_btn2").style.paddingLeft = "10px !important";
+   
   } else {
     document.getElementById("scroll_btn1").style.width= "300px";
     document.getElementById("scroll_btn2").style.width = "300px";
     document.getElementById("scroll_Txt1").innerHTML="Book a Delivery";
     document.getElementById("scroll_Txt2").innerHTML="Track my Item";
+  }
+}
+
+
+// checkbox function
+function myScheduleFunction(){
+  // get checkbox
+  var check=document.getElementById("scheduleCheck");
+
+  // get calandar
+  var cal=document.getElementsById("calandar");
+
+  if(check.checked==true){
+      cal.style.display=block;
+  }else{
+      cal.style.display=none;
   }
 }
 </script>

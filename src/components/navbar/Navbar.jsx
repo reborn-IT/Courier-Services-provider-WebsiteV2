@@ -59,7 +59,7 @@ export const Navbar=()=>{
                     <li className="nav-item">
                         <Link
                             exact
-                            to="/branches"
+                            to="/branch"
                             activeClassName="active"
                             className="nav-links-academics"
                             onClick={click ? handleClick : null}
