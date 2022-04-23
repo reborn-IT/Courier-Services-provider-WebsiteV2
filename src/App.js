@@ -7,6 +7,7 @@ import { Fixedbtn } from './components/Fixedbtn/Fixedbtn';
 import Calculator from './components/Calculator/Calculator';
 import Contact from './components/Contact/Contact';
 import { Services } from './components/Services/Services';
+import Branches from './components/Branches/Branches';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={< Aboutus />} />
           <Route path='/contact' element={<Contact />}/>
           <Route path='/services' element={ < Services />}/>
+          <Route path='/branches' element={<Branches /> } />
         </Routes> 
         <Footer />
       </Router>
