@@ -26,7 +26,7 @@ export const Footer=()=>{
                                 <Link to="/terms"><li className="footer-list">Terms</li></Link>
                                 <Link to="/about"><li className="footer-list">About us</li></Link>
                                 <Link to="/contact"><li className="footer-list">Contact</li></Link>
-                                <Link to="/privacy"><li className="footer-list">Privacy Policy</li></Link>
+                                <Link to="/terms"><li className="footer-list">Privacy Policy</li></Link>
                             </ul>
                     </section>
                 </div>

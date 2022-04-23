@@ -37,9 +37,13 @@
   align-items: center;
   color: white;
   font-weight: 100;
+  transition: 1s;
 }
 
-
+.album:hover{
+  transform: translateY(-20px);
+  box-shadow: 0 5px 20px rgba(0,0,0,.8);
+}
 /* Important step - image will spill over the container if width is not declared explicitly */
 .service-desc-image {
   width: 100%;
