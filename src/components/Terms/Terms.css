@@ -1,3 +1,70 @@
 #terms {
-    margin-top: none;
+    margin-top: 5%;
+}
+
+#terms .titleImg{
+    width: 100%;
+}
+
+#terms .titleImg img{
+width: 100%;
+}
+
+#terms .attention{
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 6px;
+    font-size: 100%;
+    font-weight: 500;
+    transition: 1s;
+    box-shadow: 0px 20px 40px -20px rgba(0,0,0,0.43) !important; 
+}
+
+#terms #attention:hover{
+    background-color: red;
+    color: black;
+}
+
+
+#terms .block{
+    margin-bottom: 3%;
+    text-align: justify;
+    transition: 1.5s;
+    /* box-shadow: 0px 0px 42px -15px rgba(0,0,0,0.43) !important; */
+    border-radius: 10px;
+}
+
+#terms .block:hover{
+    /* transform: scale(1.05); */
+}
+
+#terms .block-title{
+    color: #533E85;
+    font-size:1.5em;
+    font-weight: 500;
+    border-bottom: 2px solid #488FB1;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+
+#terms .block-description{
+    padding: 2%;
+    color: gray;
+}
+
+@media screen and (max-width: 415px){
+    #terms{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    #terms{
+        margin-top: 30%;
+    }
 }
