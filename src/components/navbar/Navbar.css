@@ -148,14 +148,18 @@
   transition: width 0.7s ease, background-color 0.5s ease;
 }
 
+ul li .active{
+  background-color: #8668B0;
+}
+
 .nav-item:hover:after {
   width: 100%;
   background:#488FB1;
 }
 
-.nav-item.active {
-  color: #ffdd40;
-  border: 1px solid #ffdd40;
+.nav-item .active {
+  color: #488FB1;
+  border: 2px solid #488FB1;
 }
 
 .nav-icon {
