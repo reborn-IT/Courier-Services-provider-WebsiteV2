@@ -23,7 +23,7 @@ export const Navbar=()=>{
                    <span className='servicename'><div>Sithum Sago</div><div>Delivery</div></span>
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    <li className="nav-item">
+                    <li className="nav-item active">
                         <Link
                             exact
                             to="/"

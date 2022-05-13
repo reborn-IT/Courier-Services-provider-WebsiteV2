@@ -37,7 +37,7 @@ export const Fixedbtn=()=>{
 
                 <Link
                             exact
-                            to="/book"
+                            to="/tracker"
                             activeClassName="active"
                             className="nav-links-home"
                             onClick={click ? handleClick : null}
