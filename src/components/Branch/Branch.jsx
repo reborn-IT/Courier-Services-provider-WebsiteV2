@@ -1,5 +1,6 @@
 import React from "react";
 import "../Branch/Branch.css";
+import SearchableDropDown from "../../BaseComponents/SearchableDropdown/index";
 
 export const Branch = () => {
 
@@ -24,12 +25,33 @@ export const Branch = () => {
 
             <div classname="branch-form">
               <div className="branch-heading"> Our Branch Network</div>
-                <select className="branch-select">
+                {/* <select className="branch-select">
                   <option value="Option 1">Select Branch <i class="fa-solid fa-caret-down"></i></option>
                   <option value="Option 2">Branch 1</option>
                   <option value="Option 3">Branch 2</option>
                   <option value="Option 4">Branch 3</option>
-                </select>
+                </select> */}
+
+        <SearchableDropDown
+              data={[
+               {
+                id: 1,
+                title: "Dog",
+                },
+               {
+               id: 2,
+                title: "Cat",
+              },
+              {
+                id: 3,
+                title: "Parrot",
+              },
+                  ]}
+              extraTailwind={{
+                  createButton: "bg-rebornit-primary text-white",
+                  item: "hover:bg-rebornit-primary hover:text-white",
+              }}
+              />
                
               <br /> <br />
 

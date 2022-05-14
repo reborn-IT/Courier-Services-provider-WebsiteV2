@@ -1,5 +1,8 @@
 import '../Book a Delivery/Book.css';
 import { Link } from 'react-router-dom';
+import StandartButton from '../../BaseComponents/StandartButton/index';
+import { BorderlessInput } from '../../BaseComponents/BorderlessInput/index';
+
 
 export const Book = ()=>{
 
@@ -16,15 +19,16 @@ export const Book = ()=>{
                    <div className='row'>
                    <form className='form'>
 
-                   <div class="mb-3">
-                        <i class="fa fa-info-circle" aria-hidden="true"></i>
-                        <label for="" class="topic">Sender's Info:</label>
-                    </div>
+                   {/* <div class="mb-3"> */}
+                        {/* <i class="fa fa-info-circle" aria-hidden="true"></i>
+                        <label for="" class="topic">Sender's Info:</label> */}
+                        <BorderlessInput />
+                    {/* </div> */}
 
                     <div class="mb-3">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <label for="name" class="form-label">Sender's Name:</label>
-                        <input type="text" class="" id="name" aria-describedby="emailHelp"/>
+                        <input type="text" class=" focus:bg-gray-400 outline-none" id="name" aria-describedby="emailHelp"/>
                     
                     </div>
   
@@ -53,6 +57,7 @@ export const Book = ()=>{
                     </div>
                         <div className='nextBtn'>
                         <Link to="/book2"><button type="submit" class="btn btn-primary">Next</button></Link>
+                        
                     </div>
                     </form>
                    </div>
