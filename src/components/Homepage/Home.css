@@ -60,9 +60,9 @@
     transition: 100ms;
 }
 
-#home .seeMoreBtn [type="button"]:hover{
+/* #home .seeMoreBtn [type="button"]:hover{
   font-weight: 800;
-}
+} */
 
 #home .services{
     padding: 3%;

@@ -1,4 +1,5 @@
 import "../Homepage/Home.css";
+import StandartButton from "../../BaseComponents/StandartButton/index";
 
 
 export const Home=()=>{
@@ -23,8 +24,9 @@ export const Home=()=>{
                          handle your delivery requirements with utmost responsibility and 
                          professionalism.
                     </div>
-                    <div className="seeMoreBtn">
-                    <button type="button" class="btn btn-success">See more</button>
+                    <div className="seeMoreBtn duration-700 hover:translate-x-5">
+                    {/* <button type="button" class="btn btn-success">See more</button> */}
+                    <StandartButton children={"See more"} extraTailwindClasses={"px-3 py-2 font-bold"}/>
                     </div>
                 </div>
                 <div className="col-sm-8 TxtRightAlign">
