@@ -51,9 +51,11 @@ export const Branch = () => {
                   createButton: "bg-rebornit-primary text-white",
                   item: "hover:bg-rebornit-primary hover:text-white",
               }}
+
+              placeholder={"Search Nearby Branch"}
               />
                
-              <br /> <br />
+              <br /> 
 
               <div>
                 <input className="branch-output rounded-full" type="text" name="address" placeholder="Address of the branch"  /> <br /><br />
