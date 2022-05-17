@@ -19,7 +19,7 @@ export const Fixedbtn=()=>{
                  <div className='btnDiv'>
                     <Link
                             exact
-                            to="/book"
+                            to="/sender_details"
                             activeClassName="active"
                             className="nav-links-home"
                             onClick={click ? handleClick : null}

@@ -16,9 +16,8 @@ export const Footer=()=>{
                 
                 <div className='col-sm-5'>
                     <aside className='logoDiv aside'>
-                        <img src='img/Logo2.png' alt='Logo' className='logo'/>
-                        
-                        </aside>
+                        <img src='img/Logo2.png' alt='Logo' className='logo'/>   
+                    </aside>
 
                     {/* Navigation in Footer */}
                     <section className='linkdiv section'> 
@@ -26,7 +25,7 @@ export const Footer=()=>{
                                 <Link to="/terms"><li className="footer-list">Terms</li></Link>
                                 <Link to="/about"><li className="footer-list">About us</li></Link>
                                 <Link to="/contact"><li className="footer-list">Contact</li></Link>
-                                <Link to="/terms"><li className="footer-list">Privacy Policy</li></Link>
+                                <Link to="/contactnew"><li className="footer-list">Privacy Policy</li></Link>
                             </ul>
                     </section>
                 </div>
@@ -34,8 +33,8 @@ export const Footer=()=>{
                 <div className='col-sm-4'>
                     <div className='boldText followus'>
                         Follow us on
-                        
-                        </div>
+                    </div>
+
                     <div className='socialLink'>
                             <ul class="social-icons">
                                 <li><a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a></li>
@@ -45,7 +44,7 @@ export const Footer=()=>{
                     </div>
                 </div>
             </div>
-            </footer>    
-        </div>
+        </footer>    
+    </div>
     )
 }

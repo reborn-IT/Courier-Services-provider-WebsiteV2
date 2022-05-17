@@ -24,15 +24,21 @@ function Contact() {
 					</div>
 				</div>
 			</div>
+
+		
+
 			<div class="form-contact">
+
+			
 				<form>
+					
 					<div class="row">
-					<BorderlessInput type="email" name="email" placeholder="kumesh"/>
+					
 						<div class="col-md-6">
-							{/* <div class="single-input">
+							<div class="single-input">
 								<i class="fas fa-user"></i>
-								<input type="text" name="name" placeholder="ENTER YOUR NAME" />
-							</div> */}
+								<input type="text" name="name" placeholder="ENTER YOUR NAME" autoFocus/>
+							</div>
 
 							
 						</div>
@@ -61,15 +67,16 @@ function Contact() {
 							</div>
 						</div>
 						<div class="col-12">
-							<div class="submit-input text-center">
-								<input type="submit" name="submit" value="SUBMIT NOW"  className=""/>
-								<StandartButton children={"Submit"} extraTailwindClasses={"font-bold"} />
+							<div class=" text-center">
+								{/* <input type="submit" name="submit" value="SUBMIT NOW"  className=""/> */}
+								<StandartButton children={"Submit"} extraTailwindClasses={"px-5 py-2 mt-3 font-bold bg-rebornit-primary"} />
 								
 							</div>
 						</div>
 						
 					</div>
 				</form>
+
 			</div>
 		</div>
 	</div>
