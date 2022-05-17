@@ -14,7 +14,7 @@ export const Home=()=>{
             {/* Main Description */}
             <div className="container">
             <div className="row marginClass">
-                <div className="col-sm-4 ">
+                <div className="col-sm-6 pl-10">
                     <div className="purpleTxt">
                     Safe, Reliable and Express 
                     Courier & Transport Solutions 
@@ -26,10 +26,10 @@ export const Home=()=>{
                     </div>
                     <div className="seeMoreBtn duration-700 hover:translate-x-5">
                     {/* <button type="button" class="btn btn-success">See more</button> */}
-                    <StandartButton children={"See more"} extraTailwindClasses={"px-3 py-2 font-bold"}/>
+                    <StandartButton children={"See more"} extraTailwindClasses={"px-5 py-2 text-center mt-3 font-bold bg-rebornit-primary"}/>
                     </div>
                 </div>
-                <div className="col-sm-8 TxtRightAlign">
+                <div className="col-sm-6 TxtRightAlign">
                     <img src="img/Description.png" alt="Image" className="descriptionImg" />
                 </div>
                

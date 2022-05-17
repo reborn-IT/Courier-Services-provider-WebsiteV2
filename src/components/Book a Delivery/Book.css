@@ -49,8 +49,9 @@
 
  #Book i{
     margin-right: 1%;
-    color: #533E85;
+    color: #454545;
     position: relative;
+    font-weight: 600;
  }
 
  /* #Book button{
@@ -84,10 +85,15 @@
 }
 
 #Book input,select,textarea{
-   /* border: none;
-   border-bottom:2px solid #533E85;
+   border: none;
+   border-bottom:2px solid #454545;
    width: 95%;
-   border-radius: none !important; */
+   border-radius: none !important;
+   outline: none;
+}
+
+#Book input:focus,select:focus,textarea :focus { 
+   border-bottom:2px solid #6415FF;
 }
 
 #Book select, [type="number"], [type="date"]{
@@ -157,8 +163,17 @@
    font-size: 150%;
 }
 
+#Book .input-field:focus-within i{
+      color: #6415FF;
+}
+
+#Book .input-field:focus-within label{
+   color: #6415FF;
+}
+
 #Book input:focus{
-  border: 1px solid #533E85 !important;
+  border-bottom: 2px solid #6415FF;
+  outline: none;
 }
 
 #Book .topic{

@@ -24,7 +24,7 @@ export const Branch = () => {
 
 
             <div classname="branch-form">
-              <div className="branch-heading"> Our Branch Network</div>
+              <div className="branch-heading mb-10"> Our Branch Network</div>
                 {/* <select className="branch-select">
                   <option value="Option 1">Select Branch <i class="fa-solid fa-caret-down"></i></option>
                   <option value="Option 2">Branch 1</option>
@@ -36,15 +36,15 @@ export const Branch = () => {
               data={[
                {
                 id: 1,
-                title: "Dog",
+                title: "Badulla",
                 },
                {
                id: 2,
-                title: "Cat",
+                title: "Ratnapura",
               },
               {
                 id: 3,
-                title: "Parrot",
+                title: "Dalugama",
               },
                   ]}
               extraTailwind={{
@@ -56,8 +56,8 @@ export const Branch = () => {
               <br /> <br />
 
               <div>
-                <input className="branch-output" type="text" name="address" placeholder="Address of the branch" /> <br /><br />
-                <input className="branch-output" type="text" name="address" placeholder="Contact number of the branch" />
+                <input className="branch-output rounded-full" type="text" name="address" placeholder="Address of the branch"  /> <br /><br />
+                <input className="branch-output rounded-full" type="text" name="address" placeholder="Contact number of the branch" />
               </div>
 
             </div>

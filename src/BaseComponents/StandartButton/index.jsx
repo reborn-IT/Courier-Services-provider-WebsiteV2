@@ -4,7 +4,7 @@ function StandartButton({ children, styles, extraTailwindClasses = "", clickHand
   return (
     <button
       type="button"
-      className={`become-provider rounded-full w-5 h-4 text-white w-auto whitespace-nowrap bg-rebornit-primary ${extraTailwindClasses}`}
+      className={`become-provider rounded-full text-white w-auto whitespace-nowrap bg-rebornit-primary ${extraTailwindClasses}`}
       style={{ ...styles }}
       onClick={() => clickHandler()}
     >

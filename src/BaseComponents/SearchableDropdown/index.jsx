@@ -72,7 +72,7 @@ function SearchableDropDown({
       </button>
       <input
         type="text"
-        className="border border-drop-primary p-4 rounded-xl w-full"
+        className="border border-drop-primary p-4 rounded-full w-full"
         placeholder={placeholder}
         onFocus={() => setListOpened(false)}
         onChange={(e) => inputHandler(e)}

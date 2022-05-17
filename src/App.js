@@ -6,12 +6,13 @@ import { Footer } from './components/Footer/Footer';
 import { Fixedbtn } from './components/Fixedbtn/Fixedbtn';
 import Contact from './components/Contact/Contact';
 import { Services } from './components/Services/Services';
-import { Book } from './components/Book a Delivery/Book';
-import { Book2 } from './components/Book a Delivery/Book2';
-import { Book3 } from './components/Book a Delivery/Book3';
+import { Sender_Details } from './components/Book a Delivery/Sender_Details';
+import { Receiver_Details } from './components/Book a Delivery/Receiver_Details';
+import { Delivery_Details } from './components/Book a Delivery/Delivery_Details';
 import { Branch } from './components/Branch/Branch';
 import { Terms } from './components/Terms/Terms';
 import { Tracker } from './components/Tracker/Tracker';
+import {contactNew} from './components/ContactNew/contactNew';
 
 function App() {
   return (
@@ -24,12 +25,13 @@ function App() {
           <Route path='/about' element={< Aboutus />} />
           <Route path='/contact' element={<Contact />}/>
           <Route path='/services' element={ < Services />}/>
-          <Route path='/book' element={<Book />}/>
-          <Route path='/book2' element={<Book2 />}/>
+          <Route path='/sender_details' element={<Sender_Details />}/>
+          <Route path='/receiver_details' element={<Receiver_Details />}/>
           <Route path='/branch' element={<Branch />}/>
-          <Route path='/book3' element={<Book3 />}/>
+          <Route path='/delivery_details' element={<Delivery_Details />}/>
           <Route path='/terms' element={<Terms />}/>
           <Route path='/tracker' element={<Tracker />}/>
+          <Route path='/contactnew' element={<contactNew />}/>
         </Routes> 
         <Footer />
       </Router>

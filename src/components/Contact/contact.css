@@ -43,24 +43,48 @@
     margin-top: 40px;
 }
 
+.section-contact .form-contact .single-input:focus-within i {
+	color: #6415FF;
+	font-size: 1.2em;
+	font-weight: 800;
+}
+
+.section-contact .form-contact .single-input:focus-within input,textarea {
+	border-bottom: 2px solid #454545;
+	outline: none;	
+}
+
+
+
 .section-contact .form-contact .single-input i {
 	position: absolute;
     top: 5px;
     left: 15px;
-    color: #533E85;
+    color: #454545;
+	transition: 50ms;
+}
+
+.section-contact .form-contact .single-input label{
+	position: absolute;
+    top: 5px;
+    left: 15px;
+    color: #454545;
+	transition: 50ms;
 }
 
 .section-contact .form-contact .single-input input,
 .section-contact .form-contact .single-input textarea {
 	width: 100%;
     border: none;
-    border-bottom: 2px solid #07395c;
+    border-bottom: 2px solid #454545;
     padding-left: 50px;
     padding-bottom: 15px;
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
 		transition: border .3s;
+		outline: none;
+		
 }
 
 .section-contact .form-contact .single-input input::placeholder,
