@@ -59,7 +59,7 @@ function SearchableDropDown({
     <div className="searchable-dropdown relative">
       <button type="button" onClick={() => setListOpened(false)}>
         <svg
-          className={`h-6 w-6 absolute top-4 transform transition-all duration-150 right-6 z-10 ${
+          className={`h-6 w-6 absolute top-5 transform transition-all duration-150 right-6 z-10 ${
             ListOpened ? "rotate-0" : "rotate-180"
           }`}
           fill="none"
@@ -70,9 +70,10 @@ function SearchableDropDown({
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </svg>
       </button>
+
       <input
         type="text"
-        className="border border-drop-primary p-4 rounded-full w-full"
+        className="border border-drop-primary p-3 rounded-full w-full"
         placeholder={placeholder}
         onFocus={() => setListOpened(false)}
         onChange={(e) => inputHandler(e)}
