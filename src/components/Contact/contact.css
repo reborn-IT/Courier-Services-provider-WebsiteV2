@@ -115,10 +115,13 @@
 .section-contact .form-contact .submit-input input:hover {
 	background-color: #07395c;
 }
-
+#contact{
+	top: 30%;
+}
 @media (max-width: 575.99px) {
 	.section-contact {
-	    padding: 80px 60px;
+	    padding: 120px 40px;
+		/* padding: 60px 80px; */
 	}
 
 	.section-contact .header-section .title {
@@ -132,6 +135,8 @@
 	.section-contact .header-section .description {
 		font-size: 14px;
 	}
+	
+	
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
@@ -146,6 +151,7 @@
 	.section-contact .header-section .big-title {
 		font-size: 100px;
 	}
+	
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
@@ -160,4 +166,5 @@
 	.section-contact .header-section .big-title {
 		font-size: 100px;
 	}
+	
 }

@@ -2,6 +2,8 @@ import '../Tracker/Tracker.css';
 import { useState } from 'react';
 import {BorderlessInput} from "../../BaseComponents/BorderlessInput/index";
 import StandartButton from "../../BaseComponents/StandartButton/index";
+import DeliveryStatus from '../../BaseComponents/DeliveryStatus';
+import TrackerDetail from '../../BaseComponents/TrackerDetail';
 
 
 export const Tracker=()=>{
@@ -13,6 +15,12 @@ export const Tracker=()=>{
             <div className='title'>Track Your Delivery</div>
             <div className='container'>
             <div className='row'>
+
+            <TrackerDetail name='kumesh' booking_date='2022-6-8' delivery_address='djdbcjckb' delivery_date='2022-6-8' />
+                      {/* Tracker */}
+                     <DeliveryStatus status='InTransit'/>
+
+
                 <div className='tracker-card'>
                      <div class="mb-3 flex justify-evenly align-middle">
                         {/* <label for="delivery_code" class="form-label">Enter Your Delivery Cade:</label><br/>
@@ -27,79 +35,6 @@ export const Tracker=()=>{
                      </div>
 
 
-                 {/* Tracking Details */}
-                {
-                  open?<div className='track-block'>
-                 <div className='track-details'>
-                    <div className='row'>
-                        <div className='col-sm-6'>
-                            <label className='track-details-title'>Name :</label><br/>
-                            <label>Sithum Dashantha</label>
-                        </div>
-                        <div className='col-sm-6'>
-                            <label className='track-details-title'>Booking Date :</label><br/>
-                            <label>Sithum Dashantha</label>
-                        </div>
-                    </div>
-
-                    <div className='row'>
-                        <div className='col-sm-6'>
-                            <label className='track-details-title'>Delivery Address :</label><br/>
-                            <label>Sithum Dashantha</label>
-                        </div>
-                        <div className='col-sm-6'>
-                            <label className='track-details-title'>Delivery Date :</label><br/>
-                            <label>Sithum Dashantha</label>
-                        </div>
-                    </div>
-                </div>
-
-
-                      {/* Tracker */}
-
-                      <div class="card-body">
-                         <div class="steps d-flex flex-wrap flex-sm-nowrap justify-content-between padding-top-2x padding-bottom-1x">
-
-                            <div class="step completed">
-                                <div class="step-icon-wrap">
-                                    <div class="step-icon"><i class="pe-7s-cart"></i></div>
-                                </div>
-                                     <h4 class="step-title">Confirmed Order</h4>
-                            </div>
-
-
-                            <div class="step completed">
-                                <div class="step-icon-wrap">
-                                    <div class="step-icon"><i class="pe-7s-config"></i></div>
-                                </div>
-                                    <h4 class="step-title">In Transit</h4>
-                            </div>
-
-
-                            
-
-                        
-                            <div class="step">
-                                <div class="step-icon-wrap">
-                                    <div class="step-icon"><i class="pe-7s-car"></i></div>
-                                </div>
-                                    <h4 class="step-title">Pickup</h4>
-                            </div>
-
-
-                            <div class="step">
-                                <div class="step-icon-wrap">
-                                    <div class="step-icon"><i class="pe-7s-home"></i></div>
-                                </div>
-                                    <h4 class="step-title">Product Delivered</h4>
-                            </div>
-            
-                        </div>
-                     </div>
-      
-
-                </div>:null
-                }
 
 {/* 
             

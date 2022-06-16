@@ -1,0 +1,18 @@
+.padding-class{
+    padding: 80px;
+}
+
+
+@media screen and (max-width: 415px){
+    .padding-class{
+        padding:0px !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+}
+
+@media screen and (max-width: 820px){
+
+}

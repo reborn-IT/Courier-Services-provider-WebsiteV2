@@ -1,164 +1,72 @@
-#footer{
-    background-color: #afc6d0;
-    height:10%;
-    padding: 5%;
+
+
+#copyright-text, #social-links{
     text-align: center;
-}
-
-.centerTxt{
-    text-align: center;
+    align-items: center;
 }
 
 
 
-#footer .logo{
-    width: 45%;
-}
-
-#footer .boldText{
-    font-weight: 800;
-    color: #404040;
-}
-
-
-#footer .social-icons, .footer-link{
-    list-style: none;
-    text-align: justify;
-}
-
-#footer .footer-link a:active,.footer-link a:focus,.footer-link a:hover{
-    color: black;
-}
-
-#footer .copyright{
-    margin-top: 2%;
-}
-
-#footer .footer-link
-{
-  padding-left:0;
-  list-style:none
-}
 #footer .footer-link li
 {
   display:block
 }
 
-#footer .footer-link a
-{
-  color:#404040;
-  font-weight: 600;
-  text-decoration: none;
+#social-icons{
+   padding-left: 40%;
 }
 
-#footer .footer-link a:active,.footer-link a:focus,.footer-link a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
+.social-links{
+    order: 3;
 }
 
-#footer .footer-link .inline li
-{
-  display:inline-block;
+/*  */
+
+
+/*  */
+
+
+@media screen and (max-width: 576px){
+
+.social-links{
+    order: 2;
 }
 
-#footer .social-icons li a i{
-    color: #404040;
-    font-weight: 700;
-    font-size: 150%;
+.copyright-text{
+    order: 3;
 }
-
-
-#footer .social-icons li .dribbble .youtube{
-    margin-top: 20px !important;
-}
-
-/* #footer .logodiv{
-
-  text-align: left;
-} */
-#footer .logoDiv{
-    /* width: 50%;
-     height: 100px;
-     float: left;
-     text-align: right; */
+#social-icons{
+    /* padding-left: 36%; */
  }
 
-#footer .linkdiv{
-    width: 50%;
-    height: 100px;
-    float: left;
-    border: 3px solid #404040;
-    padding-left: 5%;
-    border-top:none ;
-    border-right:none ;
-    border-bottom:none ;
-}
-
-#footer .socialLink{
-    width: 50%;
-    float: right;
-}
-
-#footer .followus{
-    text-align: right;
-    float: left;
-    width: 50%;
-    padding-right: 10px;
-    margin-top:6%;
+ .copyright-text{
+    padding-left: 0px;
+    color: black;
 }
 
 
-#footer .aside{
-   width: 50%;
-   float: left;
-   text-align: right !important;
 }
 
-#footer .section{
-   width: 50%;
-   float: right;
-}
 
-@media screen and (max-width: 415px){
-#footer .social-icons{
-    display: flex;
-    float: left;
-}
 
-#footer .social-icons li{
-    margin-left: 20%;
-}
+@media screen and (max-width: 768px) {
+   
+    #social-icons{
+        /* padding-left: 36%; */
+     }
+  }
+  
+  
+  
 
-#footer .socialLink{
-   margin-top: 10%;
-}
+  @media screen and (max-width: 820px) {
+    #social-icons{
+        /* padding-left: 30%; */
+     }
+  }
 
-#footer .footer-link Link{
-    transition: 1s;
-}
-
-#footer .footer-link Link:hover{
-    transform: translateX(15px);
-}
-
-#footer .copyright{
-    margin-top: 10%;
-}
-#footer .followus{
-    margin-top: 10%;
-}
-
-#footer .logo{
-    width: 80%;
-}
-
-}
-
-@media screen and (max-width: 820px) {
-
-}
-
-/* .nav-links-terms, .nav-links-about, .nav-links-contact, .nav-links-policy{
-    color: #404040;
-} */
+  @media screen and (max-width: 1120px) {
+    #social-icons{
+        padding-left: 36%;
+     }
+  }

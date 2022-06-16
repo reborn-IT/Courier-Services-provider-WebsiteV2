@@ -7,8 +7,7 @@ module.exports = {
       colors: {
         "rebornit-primary": "#8668B0",
         "colorTest":"0AA0DD",
-        "my-Margin":"5%",
-        "footer-color":"#0D2747"
+        "my-Margin":"5%"
       },
     },
   },

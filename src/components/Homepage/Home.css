@@ -18,6 +18,7 @@
 
 #home .descriptionImg{
     width: 80%;
+    height: 250px;
 }
 
 .marginClass{
@@ -50,6 +51,7 @@
     color: #533E85;
     font-size: 200%;
     font-weight: 600;
+    margin-top: 10%;
 }
 #home .seeMoreBtn [type="button"]{
     background-color:  #8668B0 !important;
@@ -119,7 +121,7 @@
 
 .slider{
    height: 80%;
-   margin: auto;
+   margin:0;
    position: relative;
    width: 90%;
    display: grid;

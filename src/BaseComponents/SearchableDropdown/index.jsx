@@ -57,10 +57,13 @@ function SearchableDropDown({
 
   return (
     <div className="searchable-dropdown relative">
+      {/* Dropdown Icon */}
+
+     
       <button type="button" onClick={() => setListOpened(false)}>
         <svg
-          className={`h-6 w-6 absolute top-5 transform transition-all duration-150 right-6 z-10 ${
-            ListOpened ? "rotate-0" : "rotate-180"
+          className={`h-6 w-6 absolute transform transition-all duration-150 right-6 z-5 ${
+            ListOpened ? "rotate-0  top-4 " : "rotate-180 top-4"
           }`}
           fill="none"
           viewBox="0 0 24 24"
@@ -80,8 +83,9 @@ function SearchableDropDown({
         value={input}
       />
 
+
       <ul
-        className={`price-list bg-drop-white text-drop-grey overflow-hidden flex-col rounded-lg ${
+        className={`price-list bg-white w-4/5 shadow-2xl text-drop-grey overflow-hidden flex-col rounded-lg absolute ${
           ListOpened ? "hidden" : "flex"
         }`}
       >
@@ -90,7 +94,7 @@ function SearchableDropDown({
             key={id}
             type="button"
             onClick={(e) => buttonClickHandler(e, title)}
-            className={`capitalize px-4 py-3 transition-all duration-100 ease-linear text-left ${
+            className={`capitalize px-4 py-2 transition-all duration-100 ease-linear text-left ${
               extraTailwind?.item
             } ${
               title === CREATE_NEW_TITLE
@@ -103,6 +107,8 @@ function SearchableDropDown({
           </button>
         ))}
       </ul>
+
+      
     </div>
   );
 }

@@ -12,7 +12,7 @@ function RoundedInput({
       type={type}
       placeholder={placeholder}
       onChange={(e) => onChange(e)}
-      className={`bg-black-700 rounded-input ml-2 md:ml-0 flex-1 border-xl rounded-full p-3 md:p-4 text-sm md:text-base ${extraTailwindClasses}`}
+      className={`border border-drop-primary bg-black-700 rounded-input  w-full ml-2 md:ml-0 flex-1 border-xl rounded-full p-3 mb-4 md:p-4 text-sm md:text-base ${extraTailwindClasses}`}
     />
   );
 }
