@@ -8,22 +8,24 @@ export const Navbar=()=>{
     const [click, setClick] = React.useState(false);
     const handleClick = () => setClick(!click);
     const Close = () => setClick(false);
+    
   
 
     return(
         <div>
 
         <div className={click ? "main-container" : ""} onClick={() => Close()} />
+            <nav className="navbar" onClick={e => e.stopPropagation()}>
+                <div className="nav-container">
+                    {/* Navbar Logo */}
+                    <div className="topLeft">
+                        <img src='img/Logo2.png' alt='Logo' className='logo'/>
+                        <span className='servicename leading-9 mt-4'><div>Sithum Sago</div><div>Delivery</div></span>
+                    </div>
 
-        <nav className="navbar" onClick={e => e.stopPropagation()}>
-            <div className="nav-container">
-                <div className="topLeft">
-                  
-                   <img src='img/Logo2.png' alt='Logo' className='logo'/>
-                   <span className='servicename'><div>Sithum Sago</div><div>Delivery</div></span>
-                </div>
+                {/* Nav Items */}
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
-                    <li className="nav-item active">
+                    <li className="nav-item">
                         <Link
                             exact
                             to="/"
@@ -77,10 +79,10 @@ export const Navbar=()=>{
                         >
                             Contact
                         </Link>
-                    </li>
-                    
-                   
+                    </li> 
                 </ul>
+
+                {/* Toggle Icin */}
                 <div className="nav-icon" onClick={handleClick}>
                     <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
                 </div>

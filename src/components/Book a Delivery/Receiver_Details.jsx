@@ -26,7 +26,7 @@ export const Receiver_Details = ()=>{
                     <div class="mb-3 input-field">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <label for="name" class="form-label">Receiver's Name:</label>
-                        <input type="text" class="" id="name" aria-describedby="emailHelp"/>
+                        <input type="text" class="" id="name" aria-describedby="emailHelp" autoFocus/>
                     
                     </div>
   

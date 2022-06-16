@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-*{
-  
-}
+
+
 
  .logo{
     width: 15%;
@@ -37,11 +36,7 @@
     justify-content: left;
 }
 
- .pages {
-  color: #316685;
-  text-align: center;
-  font-size: calc(1.5rem + 2vw); 
-}
+
 
  .navbar {
   background-color:#fff;
@@ -89,7 +84,7 @@
   margin-right: 2rem;
 }
 
-.nav-links-home, .nav-links-about, .nav-links-branches, .nav-links-academics, .nav-links-admission, .nav-links-alumini, .nav-links-blog, .nav-links-results{
+.nav-links-home, .nav-links-about, .nav-links-branches, .nav-links-academics, .nav-links-admission{
   text-decoration: none;
   padding: 0rem 1rem;
   height: 100%;
@@ -98,37 +93,75 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
 }
+
 .nav-links-home{
     color:#8668B0;
 }
+
+.nav-links-home:focus{
+  background-color:#8668B0;
+  border-radius: 50px;
+  color: white;
+  padding:auto;
+}
+
+
+
+
 
 .nav-links-about{
     color:#8668B0;
 }
 
+.nav-links-about:focus{
+  background-color:#8668B0;
+  border-radius: 50px;
+  color: white;
+}
+
+
+
  .nav-links-branches{
     color:#8668B0;
 }
+
+.nav-links-branches:focus{
+  background-color:#8668B0;
+  border-radius: 50px;
+  color: white;
+}
+
+.nav-links-branches:active {
+  background-color:#8668B0;
+  border-radius: 50px;
+  color: white;
+}
+
+
 
 .nav-links-academics{
     color:#8668B0;
 }
 
+.nav-links-academics:focus{
+  background-color:#8668B0;
+  border-radius: 50px;
+  color: white;
+}
+
+
+
 .nav-links-admission{
     color:#8668B0;
 }
 
-.nav-links-alumini{
-    color:#8668B0;
+.nav-links-admission:focus{
+  background-color:#8668B0;
+  border-radius: 50px;
+  color: white;
 }
 
-.nav-links-blog{
-    color:#8668B0;
-}
 
-.nav-links-results{
-    color:#8668B0;
-}
 
 .fa-code {
   margin-left: 1rem;
@@ -139,7 +172,7 @@
   margin-right: 2rem;
 }
 
-.nav-item:after {
+.nav-item::after {
   content: "";
   display: block;
   height: 3px;
@@ -148,19 +181,14 @@
   transition: width 0.7s ease, background-color 0.5s ease;
 }
 
-ul li .active{
-  background-color: #8668B0;
-}
+
 
 .nav-item:hover:after {
   width: 100%;
   background:#488FB1;
 }
 
-.nav-item .active {
-  color: #488FB1;
-  border: 2px solid #488FB1;
-}
+
 
 .nav-icon {
   display: none;

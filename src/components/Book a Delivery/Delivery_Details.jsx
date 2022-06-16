@@ -34,7 +34,7 @@ export const Delivery_Details = ()=>{
                     <div class="mb-3 input-field">
                         <i class="fa fa-commenting" aria-hidden="true"></i>
                         <label for="item" class="form-label">Description of the Item:</label>
-                        <input type="text" class="" id="item"/>
+                        <input type="text" class="" id="item" autoFocus/>
                     </div>
 
                     {/* switch for pickup time schedule */}

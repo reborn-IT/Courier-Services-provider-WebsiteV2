@@ -14,7 +14,7 @@ export const Home=()=>{
             {/* Main Description */}
             <div className="container">
             <div className="row marginClass">
-                <div className="col-sm-6 pl-10">
+                <div className="col-sm-6 pl-14">
                     <div className="purpleTxt">
                     Safe, Reliable and Express 
                     Courier & Transport Solutions 

@@ -13,7 +13,7 @@ import { Branch } from './components/Branch/Branch';
 import { Terms } from './components/Terms/Terms';
 import { Tracker } from './components/Tracker/Tracker';
 import {contactNew} from './components/ContactNew/contactNew';
-
+import {AdminPortal} from './components/Admin-Portal/AdminPortal';
 function App() {
   return (
     <div>
@@ -32,6 +32,7 @@ function App() {
           <Route path='/terms' element={<Terms />}/>
           <Route path='/tracker' element={<Tracker />}/>
           <Route path='/contactnew' element={<contactNew />}/>
+          <Route path='/admin' element={<AdminPortal />}/>
         </Routes> 
         <Footer />
       </Router>
