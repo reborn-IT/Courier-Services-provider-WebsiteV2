@@ -80,6 +80,17 @@ export const Navbar=()=>{
                             Contact
                         </Link>
                     </li> 
+                    <li className="nav-item">
+                        <Link
+                            exact
+                            to="/signin"
+                            activeClassName="active"
+                            className="nav-links-admission"
+                            onClick={click ? handleClick : null}
+                        >
+                            Signin
+                        </Link>
+                    </li> 
                 </ul>
 
                 {/* Toggle Icin */}

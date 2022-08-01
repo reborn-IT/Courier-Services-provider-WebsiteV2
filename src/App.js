@@ -14,6 +14,10 @@ import { Terms } from './components/Terms/Terms';
 import { Tracker } from './components/Tracker/Tracker';
 import {contactNew} from './components/ContactNew/contactNew';
 import {AdminPortal} from './components/Admin-Portal/AdminPortal';
+import Signup from './components/User/Signup';
+import Signin from './components/User/Signin';
+
+
 function App() {
   return (
     <div>
@@ -33,8 +37,12 @@ function App() {
           <Route path='/tracker' element={<Tracker />}/>
           <Route path='/contactnew' element={<contactNew />}/>
           <Route path='/admin' element={<AdminPortal />}/>
+          <Route path='/signin' element={<Signin />} /> 
+          <Route path='/signup' element={<Signup />} />
         </Routes> 
         <Footer />
+        
+        
       </Router>
     </div>
   );
